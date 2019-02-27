@@ -1,73 +1,32 @@
 .title {
-    
-    &_xsmall {
-        font-size: 16px;
-    }
+    font-family: 'MuseoSans';
+    color: #000000;
 
     &_small {
         font-size: 18px;
+        font-weight: 500;
     }
 
     &_medium {
         font-size: 24px;
+        font-weight: 500;
     }
 
     &_large {
         font-size: 32px;
+        font-weight: 900;
+
+        &_light {
+            font-weight: 300;
+        }
     }
 
     &_xlarge {
         font-size: 36px;
+        font-weight: 900;
     }
 
-
-    &_thin {
-        font-family: 'MuseoSans Thin';
-    }
-
-    &_regular {
-        font-family: 'MuseoSans Regular';
-    }
-
-    &_bold {
-        font-family: 'MuseoSans Bold';
-    }
-
-    &_white {
-        color: #fff;
-    }
-
-    &_lightgrey {
-        color: $lightgrey;
-    }
-
-    &_lightblue {
-        color: $lightblue;
-    }
-
-    &_uppercase {
+    &_uppercased {
         text-transform: uppercase;
-    }
-
-    &_underlined {
-        border-bottom: 3px solid #ff9668;
-    }
-
-    &_city {
-        display: flex;
-        height: 26px;
-        align-items: center;
-
-        & img {
-            margin-right: 20px;
-
-            @media only screen and (max-width: 768px) {
-                display: none;
-            }
-        }
-    }
-
-    &_centered {
-        text-align: center;
     }
 }

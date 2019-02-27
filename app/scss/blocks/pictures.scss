@@ -1,0 +1,27 @@
+.pictures {
+    margin-top: 85px;
+    margin-bottom: 160px;
+
+    &__text {
+        padding-left: 80px;
+    }
+
+    &__wrapper {
+        display: flex;
+        width: calc(100% - 40px);
+        margin-top: 35px;
+        margin-bottom: 135px;
+    }
+
+    &__section {
+        width: 50%;
+
+        &:first-child {
+            margin-right: 40px;
+        }
+    }
+
+    &_centered {
+        text-align: center;
+    }
+}

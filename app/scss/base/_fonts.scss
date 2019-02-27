@@ -13,22 +13,22 @@
 }
 
 @font-face {
-    font-family: 'MuseoSans Thin';
+    font-family: 'MuseoSans';
     src: url('../fonts/MuseoSans300.woff') format('woff');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MuseoSans Regular';
+    font-family: 'MuseoSans';
     src: url('../fonts/MuseoSans500.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MuseoSans Bold';
-    src: url('../fonts/MuseoSans700.woff') format('woff');
-    font-weight: normal;
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans900.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
 }

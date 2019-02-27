@@ -402,21 +402,21 @@ template {
   font-style: normal; }
 
 @font-face {
-  font-family: 'MuseoSans Thin';
+  font-family: 'MuseoSans';
   src: url("../fonts/MuseoSans300.woff") format("woff");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: 'MuseoSans Regular';
+  font-family: 'MuseoSans';
   src: url("../fonts/MuseoSans500.woff") format("woff");
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: 'MuseoSans Bold';
-  src: url("../fonts/MuseoSans700.woff") format("woff");
-  font-weight: normal;
+  font-family: 'MuseoSans';
+  src: url("../fonts/MuseoSans900.woff") format("woff");
+  font-weight: 900;
   font-style: normal; }
 
 input::-webkit-input-placeholder,
@@ -445,78 +445,66 @@ textarea:-ms-input-placeholder {
   font-size: 14px;
   color: #858c95; }
 
+.col-xs-five,
+.col-sm-five,
+.col-md-five,
+.col-lg-five {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.col-xs-five {
+  width: 20%;
+  float: left; }
+
+@media (min-width: 768px) {
+  .col-sm-five {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 992px) {
+  .col-md-five {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 1200px) {
+  .col-lg-five {
+    width: 20%;
+    float: left; } }
+
+.centered {
+  text-align: center; }
+
 .text {
-  font-family: 'OpenSans Regular'; }
+  font-family: 'OpenSans Regular';
+  color: #595959; }
   .text_small {
-    font-size: 13px; }
+    font-size: 12px; }
   .text_medium {
-    font-size: 14px; }
+    font-size: 13px; }
   .text_large {
     font-size: 16px; }
-  .text_xlarge {
-    font-size: 30px; }
-  .text_bold {
-    font-family: 'OpenSans Bold'; }
-  .text_white {
-    color: #fff; }
-  .text_centered {
-    text-align: center; }
 
-.title_xsmall {
-  font-size: 16px; }
-
-.title_small {
-  font-size: 18px; }
-
-.title_medium {
-  font-size: 24px; }
-
-.title_large {
-  font-size: 32px; }
-
-.title_xlarge {
-  font-size: 38px; }
-
-.title_thin {
-  font-family: 'MuseoSans Thin'; }
-
-.title_regular {
-  font-family: 'MuseoSans Regular'; }
-
-.title_bold {
-  font-family: 'MuseoSans Bold'; }
-
-.title_white {
-  color: #fff; }
-
-.title_lightgrey {
-  color: #959595; }
-
-.title_lightblue {
-  color: #5a94d0; }
-
-.title_uppercase {
-  text-transform: uppercase; }
-
-.title_underlined {
-  border-bottom: 3px solid #ff9668; }
-
-.title_city {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 26px;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .title_city img {
-    margin-right: 20px; }
-    @media only screen and (max-width: 768px) {
-      .title_city img {
-        display: none; } }
-
-.title_centered {
-  text-align: center; }
+.title {
+  font-family: 'MuseoSans';
+  color: #000000; }
+  .title_small {
+    font-size: 18px;
+    font-weight: 500; }
+  .title_medium {
+    font-size: 24px;
+    font-weight: 500; }
+  .title_large {
+    font-size: 32px;
+    font-weight: 900; }
+    .title_large_light {
+      font-weight: 300; }
+  .title_xlarge {
+    font-size: 36px;
+    font-weight: 900; }
+  .title_uppercased {
+    text-transform: uppercase; }
 
 .input {
   background-color: #fff;
@@ -539,3 +527,51 @@ textarea:-ms-input-placeholder {
       box-sizing: border-box; } }
   .input.notValid {
     border: 1px solid #ff3d3d; }
+
+.header {
+  background: transparent url(../img/printer-bg.png) 0 0 no-repeat; }
+  .header__logo {
+    margin: 40px 0 70px 0; }
+  .header__subheading {
+    margin-bottom: 110px; }
+  .header_centered {
+    text-align: center; }
+  .header__text {
+    margin-top: 30px; }
+
+.pictures {
+  margin-top: 85px;
+  margin-bottom: 160px; }
+  .pictures__text {
+    padding-left: 80px; }
+  .pictures__wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100% - 40px);
+    margin-top: 35px;
+    margin-bottom: 135px; }
+  .pictures__section {
+    width: 50%; }
+    .pictures__section:first-child {
+      margin-right: 40px; }
+  .pictures_centered {
+    text-align: center; }
+
+.solutions__mainheading {
+  border-bottom: 6px solid #ff0000;
+  display: inline-block;
+  margin-bottom: 35px; }
+
+.solutions__bigtext {
+  margin-top: 90px; }
+
+.solutions__icons {
+  margin-top: 100px; }
+
+.solutions__icons img {
+  opacity: 0.3;
+  margin-bottom: 30px; }
+
+.solutions__icon {
+  text-align: center; }

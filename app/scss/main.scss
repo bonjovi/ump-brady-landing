@@ -4,6 +4,14 @@
 @import 'utils/placeholders';
 @import 'base/media';
 
+@import 'base/custom';
+
+@import 'blocks/centered';
+
 @import 'blocks/text';
 @import 'blocks/title';
 @import 'blocks/input';
+
+@import 'blocks/header';
+@import 'blocks/pictures';
+@import 'blocks/solutions';
