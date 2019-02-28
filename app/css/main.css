@@ -505,6 +505,8 @@ textarea:-ms-input-placeholder {
     font-weight: 900; }
   .title_uppercased {
     text-transform: uppercase; }
+  .title_blue {
+    color: #1b489e; }
 
 .input {
   background-color: #fff;
@@ -575,3 +577,18 @@ textarea:-ms-input-placeholder {
 
 .solutions__icon {
   text-align: center; }
+
+.beowner {
+  padding-top: 200px;
+  padding-bottom: 600px;
+  background: url(../img/printers-bg.png) center 500px no-repeat; }
+  .beowner__heading {
+    margin-bottom: 50px; }
+  .beowner__subheading {
+    color: white;
+    background-color: #3b3b3b;
+    padding: 16px;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px; }
