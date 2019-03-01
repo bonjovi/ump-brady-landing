@@ -1,0 +1,19 @@
+.advantages {
+    &__mainheading {
+        border-bottom: 6px solid #ff0000;
+        display: inline-block;
+        margin-bottom: 165px;
+    }
+
+    &__sections {
+        margin-bottom: 150px;
+    }
+
+    &__section {
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+    }
+}
