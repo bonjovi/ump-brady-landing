@@ -1,4 +1,6 @@
 .structure {
+    padding-bottom: 260px;
+    
     &__mainheading {
         border-bottom: 6px solid #ff0000;
         display: inline-block;
@@ -21,5 +23,18 @@
     &__text {
         margin-top: 70px;
         margin-bottom: 80px;
+    }
+
+    &__title {
+        font-family: 'DINProBlack';
+        text-transform: uppercase;
+        color: #60afe1;
+        font-weight: bold;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    &__property {
+        text-align: center;
     }
 }

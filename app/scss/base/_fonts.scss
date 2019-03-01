@@ -21,6 +21,13 @@
 
 @font-face {
     font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans';
     src: url('../fonts/MuseoSans500.woff') format('woff');
     font-weight: 500;
     font-style: normal;
@@ -30,5 +37,12 @@
     font-family: 'MuseoSans';
     src: url('../fonts/MuseoSans900.woff') format('woff');
     font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINProBlack';
+    src: url('../fonts/DINPro-CondBold_0.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }

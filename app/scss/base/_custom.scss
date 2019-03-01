@@ -33,3 +33,111 @@
         float: left;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-xs-eight,
+.col-sm-eight,
+.col-md-eight,
+.col-lg-eight {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-eight {
+    width: 12.5%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-eight {
+        width: 12.5%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-eight {
+        width: 12.5%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-eight {
+        width: 12.5%;
+        float: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-xs-nine,
+.col-sm-nine,
+.col-md-nine,
+.col-lg-nine {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-nine {
+    width: 11.11%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-nine {
+        width: 11.11%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-nine {
+        width: 11.11%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-nine {
+        width: 11.11%;
+        float: left;
+    }
+}

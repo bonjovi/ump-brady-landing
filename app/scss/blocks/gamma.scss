@@ -1,0 +1,39 @@
+.gamma {
+    padding-bottom: 200px;
+    
+    &__mainheading {
+        border-bottom: 6px solid #ff0000;
+        display: inline-block;
+        margin-bottom: 35px;
+    }
+
+    &__colors {
+        display: flex;
+        margin: 60px 0 20px 0;
+        width: 110%;
+        justify-content: space-around;
+    }
+
+    &__color {
+        width: 64px;
+        height: 64px;
+
+        &_silver {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1c1c1+0,ffffff+50,9b9b9b+100 */
+            background: #c1c1c1; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #c1c1c1 0%, #ffffff 50%, #9b9b9b 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #c1c1c1 0%,#ffffff 50%,#9b9b9b 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #c1c1c1 0%,#ffffff 50%,#9b9b9b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c1c1', endColorstr='#9b9b9b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        }
+    }
+
+    &__list {
+        margin-left: 20px;
+    }
+
+    &__listitem {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}

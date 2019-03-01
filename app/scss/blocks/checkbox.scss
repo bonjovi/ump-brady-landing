@@ -1,0 +1,40 @@
+.checkbox {
+    margin-right: 10px !important;
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+
+    &__mark {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border: 1px solid lightgray;
+        vertical-align: middle;
+        margin-right: 0.2em;
+        border-radius: 0.1em;
+    }
+}
+
+
+
+
+.checkbox:checked + .checkbox__mark {
+    &::after {
+      content: '';
+      position: absolute;
+      left: 40%;
+      top: -60%;
+      width: 12px;
+      height: 28px;
+      transform: rotate(45deg);
+      border: 4px solid #59bc81;
+      border-top-color: transparent;
+      border-left-color: transparent;
+    }
+}
+
+label {
+    display: flex;
+    cursor: pointer;
+}
