@@ -626,14 +626,14 @@ textarea:-ms-input-placeholder {
     height: 40px;
     border: 1px solid lightgray;
     vertical-align: middle;
-    margin-right: 0.2em;
-    border-radius: 0.1em; }
+    margin-right: 10px;
+    margin-top: -10px; }
 
 .checkbox:checked + .checkbox__mark::after {
   content: '';
   position: absolute;
   left: 40%;
-  top: -60%;
+  top: 0;
   width: 12px;
   height: 28px;
   -webkit-transform: rotate(45deg);
@@ -758,7 +758,7 @@ label {
   .beowner__subheading {
     color: white;
     background-color: #3b3b3b;
-    padding: 16px;
+    padding: 16px 16px 12px 16px;
     border-radius: 4px;
     display: inline-block;
     vertical-align: middle;
@@ -792,7 +792,10 @@ label {
 
 .materials {
   background: url(../img/printers-ribbons.png) 0 0 no-repeat;
-  padding-bottom: 880px; }
+  background-size: contain;
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 700px; }
   .materials__mainheading {
     border-bottom: 6px solid #ff0000;
     display: inline-block;
@@ -908,6 +911,12 @@ label {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
+  .feedback__link {
+    color: #034ea2;
+    text-decoration: underline; }
+    .feedback__link:hover {
+      color: #034ea2;
+      text-decoration: none; }
 
 .button {
   padding: 20px 70px;
@@ -925,7 +934,7 @@ label {
   transition: color 1s;
   outline: none;
   background-color: #59bc81;
-  width: calc(100% - 20px);
+  width: 100%;
   display: block;
   text-align: center;
   margin-top: -20px; }
@@ -958,3 +967,13 @@ label {
     background-color: #ff3d3d;
     border-color: #ff3d3d;
     color: #fff; }
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 150px 0 300px 0; }
+  .footer__logo {
+    text-align: center;
+    transition: opacity 0.5s;
+    margin-bottom: 60px; }
+    .footer__logo:hover {
+      opacity: 0.7; }

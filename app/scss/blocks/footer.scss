@@ -1,0 +1,14 @@
+.footer {
+    background-color: #f4f4f4;
+    padding: 150px 0 300px 0;
+
+    &__logo {
+        text-align: center;
+        transition: opacity 0.5s;
+        margin-bottom: 60px;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}

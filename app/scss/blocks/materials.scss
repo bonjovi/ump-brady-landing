@@ -1,6 +1,9 @@
 .materials {
     background: url(../img/printers-ribbons.png) 0 0 no-repeat;
-    padding-bottom: 880px;
+    background-size: contain;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 700px;
 
     &__mainheading {
         border-bottom: 6px solid #ff0000;

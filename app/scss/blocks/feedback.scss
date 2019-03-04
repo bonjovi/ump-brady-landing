@@ -10,4 +10,14 @@
     &__checkbox-wrapper {
         display: flex;
     }
+
+    &__link {
+        color: #034ea2;
+        text-decoration: underline;
+
+        &:hover {
+            color: #034ea2;
+            text-decoration: none;
+        }
+    }
 }
