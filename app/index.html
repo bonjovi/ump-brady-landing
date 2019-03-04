@@ -9,20 +9,15 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="http://www.youtube.com/player_api"></script>
 	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
 	<script src="js/custom.js"></script>
 </head>
 <body>
-		<div class="owl-carousel">
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-			  </div>
 	<header class="header">
 		<div class="container">
 			<div class="row">
@@ -66,11 +61,42 @@
 			</div>
 		</div>
 		<div class="pictures__wrapper">
-			<div class="pictures__section">
-				<img src="img/pic-1.png" alt="">
+			<div class="pictures__section owl-carousel">
+				<div>
+					<img src="img/pic-1.png" alt="">
+					<div class="pictures__title">
+						Заголовок 1
+					</div>
+				</div>
+				<div>
+					<img src="img/pic-2.png" alt="">
+					<div class="pictures__title">
+						Заголовок 2
+					</div>
+				</div>
 			</div>
-			<div class="pictures__section">
-				<img src="img/pic-2.png" alt="">
+			<div class="pictures__section owl-carousel">
+				<div>
+					<img src="img/pic-1.png" alt="">
+					<div class="pictures__title">
+						Заголовок 1
+					</div>
+				</div>
+				<div>
+					<img src="img/pic-2.png" alt="">
+					<div class="pictures__title">
+						Заголовок 2
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row pictures_centered">
+				<div class="pictures__arrow">
+					<div class="pictures__arrowwrapper">
+						<img src="img/green-arrow.png" alt="">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="container">
@@ -348,9 +374,17 @@
 	<section class="printers">
 		<div class="container">
 			<div class="title title_xlarge title_uppercased printers__mainheading">Промышленные принтеры Brady</div>
-			<div class="text">
-				Принтеры BRADY созданы для печати знаков безопасности, сигнальной разметки, инструкций, общей маркировки и идентификации.
+			<div class="printers__sections">
+				<div class="text">
+					Принтеры BRADY созданы для печати знаков безопасности, сигнальной разметки, инструкций, общей маркировки и идентификации.
+				</div>
+				<div class="printers__videobutton">
+					<a href="https://www.youtube.com/embed/H2hmjsCYXOM" class="button fancybox fancybox.iframe" rel="group">
+						Смотреть видео
+					</a>
+				</div>
 			</div>
+			
 			<table class="table" cellpadding="0" cellspacing="0">
 				<tr>
 					<td></td>
