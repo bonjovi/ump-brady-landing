@@ -5,6 +5,11 @@
     padding-top: 100px;
     padding-bottom: 700px;
 
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 100px;
+        background: none;
+    }
+
     &__mainheading {
         border-bottom: 6px solid #ff0000;
         display: inline-block;

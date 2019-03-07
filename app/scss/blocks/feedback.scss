@@ -1,5 +1,8 @@
 .feedback {
     padding: 180px 0 140px 0;
+    @media only screen and (max-width: 768px) {
+        padding-top: 80px;
+    }
 
     &__mainheading {
         border-bottom: 6px solid #ff0000;
@@ -9,6 +12,10 @@
 
     &__checkbox-wrapper {
         display: flex;
+
+        @media only screen and (max-width: 768px) {
+            margin-bottom: 50px;
+        }
     }
 
     &__link {

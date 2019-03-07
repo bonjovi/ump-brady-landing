@@ -1,6 +1,10 @@
 .header {
     background: transparent url(../img/printer-bg.png) 0 0 no-repeat;
 
+    @media only screen and (max-width: 1200px) {
+        background: none;
+    }
+
     &__logo {
         margin: 40px 0 70px 0;
     }

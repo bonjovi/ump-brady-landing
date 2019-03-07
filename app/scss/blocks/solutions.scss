@@ -20,5 +20,9 @@
 
     &__icon {
         text-align: center;
+
+        @media only screen and (max-width: 768px) {
+            margin-bottom: 20px;
+        }
     }
 }

@@ -1,5 +1,9 @@
 .gamma {
     padding-bottom: 200px;
+
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 60px;
+    }
     
     &__mainheading {
         border-bottom: 6px solid #ff0000;

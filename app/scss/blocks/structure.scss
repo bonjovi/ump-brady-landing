@@ -1,5 +1,8 @@
 .structure {
     padding-bottom: 260px;
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 60px;
+    }
     
     &__mainheading {
         border-bottom: 6px solid #ff0000;
@@ -23,6 +26,11 @@
     &__text {
         margin-top: 70px;
         margin-bottom: 80px;
+
+        @media only screen and (max-width: 768px) {
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
     }
 
     &__title {
@@ -32,9 +40,19 @@
         font-weight: bold;
         line-height: 20px;
         margin-top: 20px;
+
+        & br {
+            @media only screen and (max-width: 768px) {
+                display: none;
+            }
+        }
     }
 
     &__property {
         text-align: center;
+
+        @media only screen and (max-width: 768px) {
+            margin-bottom: 40px;
+        }
     }
 }

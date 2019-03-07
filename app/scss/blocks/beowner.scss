@@ -3,6 +3,10 @@
     padding-bottom: 600px;
     background: url(../img/printers-bg.png) center 500px no-repeat;
 
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 100px;
+    }
+
     &__heading {
         margin-bottom: 50px;
     }
@@ -15,6 +19,10 @@
         display: inline-block;
         vertical-align: middle;
         line-height: 25px;
+
+        @media only screen and (max-width: 768px) {
+            line-height: 37px;
+        }
     }
 
     &__textinfo {
@@ -22,6 +30,12 @@
         position: absolute;
         right: 208px;
         margin-top: 475px;
+
+        @media only screen and (max-width: 768px) {
+            position: relative;
+            right: initial;
+            margin-top: 300px;
+        }
     }
 
     &__redtext {
