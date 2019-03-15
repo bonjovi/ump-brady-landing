@@ -20,8 +20,8 @@
 		box-sizing: border-box;
 	}
 
-	&.notValid {
-		border: 1px solid $red;
+	&_wrong {
+		border: 1px solid red;
 	}
 }
 

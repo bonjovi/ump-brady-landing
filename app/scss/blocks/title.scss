@@ -16,6 +16,10 @@
         font-size: 32px;
         font-weight: 900;
 
+        @media only screen and (max-width: 320px) {
+            font-size: 24px;
+        }
+
         &_light {
             font-weight: 300;
         }
@@ -24,6 +28,10 @@
     &_xlarge {
         font-size: 36px;
         font-weight: 900;
+
+        @media only screen and (max-width: 320px) {
+            font-size: 24px;
+        }
     }
 
     &_uppercased {
